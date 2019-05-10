@@ -102,9 +102,29 @@ img{
 	text-align:center;
 	padding-top: 10px;
 }
-
 #Works ul{
+	text-align: center;
+}
+#Works h3{
 	text-align: center;
 	padding: 10px;
 	color: #0000FF;
+}
+
+#Works h4{
+	margin-left: 25%;
+	margin-right: 30%;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+#Contact {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
 }
