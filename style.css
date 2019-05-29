@@ -104,6 +104,8 @@ img{
 }
 #Works ul{
 	text-align: center;
+	border: 10px;
+	width: 100%;
 }
 #Works h3{
 	text-align: center;
@@ -111,11 +113,15 @@ img{
 	color: #0000FF;
 }
 
-#Works h4{
-	margin-left: 25%;
-	margin-right: 30%;
+.Context{
+
 	text-align: left;
 	padding-bottom: 5px;
+	width: 400px;
+	margin:10px 10% 10px 5%;
+	border: 10px;
+	padding: 5px;
+	float: left;
 }
 
 #Contact {
@@ -127,4 +133,56 @@ img{
 	background-color: black;
 	color: white;
 	text-align: center;
+}
+#work1{
+	height: 400px;
+}
+#work1 ul{
+	text-align: right;
+	float: right;
+}
+
+#work1 iframe{
+	text-align: right;
+	padding: 5px;
+	float: right;
+}
+#work2{
+	height: 400px;
+}
+#work2 ul{
+	text-align: right;
+	float: right;
+}
+
+#work2 iframe{
+	text-align: right;
+	padding: 5px;
+	float: right;
+}
+#work3{
+	height: 400px;
+}
+#work3 ul{
+	text-align: right;
+	float: right;
+}
+
+#work3 iframe{
+	text-align: right;
+	padding: 5px;
+	float: right;
+}
+#work4{
+	height: 400px;
+}
+#work4 ul{
+	text-align: right;
+	float: right;
+}
+
+#work4 iframe{
+	text-align: right;
+	padding: 5px;
+	float: right;
 }
