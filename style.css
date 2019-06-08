@@ -121,7 +121,8 @@ img{
 	margin:10px 10% 10px 5%;
 	border: 10px;
 	padding: 5px;
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 }
 
 #Contact {
@@ -134,55 +135,88 @@ img{
 	color: white;
 	text-align: center;
 }
+
+@media screen and (max-width: 768px){
 #work1{
-	height: 400px;
+	height: 550px;
+}
+#work2{
+	height: 550px;
+}
+#work3{
+	height: 600px;
+}
+#work4{
+	height: 550px;
+}
 }
 #work1 ul{
-	text-align: right;
-	float: right;
+	/*text-align: right;*/
+	/*float: right;*/
+	display: inline-block;
+	/*border-width: 600px;*/
+	/*width: 50%;*/
 }
 
 #work1 iframe{
-	text-align: right;
+	/*text-align: right;*/
 	padding: 5px;
-	float: right;
+	/*float: right;*/
+	display: inline-block;
 }
-#work2{
-	height: 400px;
-}
+
 #work2 ul{
-	text-align: right;
-	float: right;
+	/*text-align: left;*/
+	/*float: right;*/
+	display: inline-block;
 }
 
 #work2 iframe{
-	text-align: right;
+	/*text-align: left;*/
 	padding: 5px;
-	float: right;
+	/*float: right;*/
+	display: inline-block;
 }
-#work3{
-	height: 400px;
-}
+
+
+
 #work3 ul{
-	text-align: right;
-	float: right;
+	/*text-align: left;*/
+	/*float: right;*/
+	display: inline-block;
 }
 
 #work3 iframe{
 	text-align: right;
 	padding: 5px;
-	float: right;
+	/*float: right;*/
+	display: inline-block;
 }
-#work4{
-	height: 400px;
-}
+
 #work4 ul{
-	text-align: right;
-	float: right;
+	/*text-align: right;*/
+	display: inline-block;
 }
 
 #work4 iframe{
-	text-align: right;
+	/*text-align: right;*/
 	padding: 5px;
-	float: right;
+	/*float: right;*/
+	display: inline-block;
+}
+
+.videos{
+	display: inline-block;
+	height: 800px;
+}
+
+#Diaries{
+	display: inline-block;
+	text-align: center;
+	width:100%;
+	padding-bottom: 20px;
+}
+
+#div{
+	padding-bottom: 10px;
 }
