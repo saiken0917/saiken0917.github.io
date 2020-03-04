@@ -1,0 +1,222 @@
+#title {
+	text-align: center;
+	margin:0px;
+	color: #3A5BA5;
+}
+/*
+#div1 {
+	width:250px;
+	vertical-align: middle;
+	line-height: 60px;
+	padding: 0px;
+	margin-right: 0px;
+	float:left;
+}
+#div2{
+	width:350px;
+	vertical-align: middle;
+	margin-left: 0px;
+	line-height: 60px;
+	padding: 0px;
+	float:right;
+}
+*//*
+button{
+	border-radius: 8px;
+	vertical-align: padding;
+	background-color: #E6A600;
+	text-align: right;
+	padding: 10px 25px;
+	font-size: 20px;
+	width: 60px;
+	height: 30px;
+}
+*/
+body{
+	margin: 0px;
+}
+
+.carousel-inner img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70% * max-height;
+	max-height: 420px;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+	max-height: 70%;
+}
+
+#headbar{
+	height: 60px;
+	position: auto;
+}
+.navbar {
+	max-width: 100%;
+	max-height: auto;
+	position: fixed;
+	background-color: #E2A050;
+}
+
+.navbar a{
+	position: relative;
+	color: #2f2f2f;
+}
+
+.navbar a:hover{
+	background: #E5E5E5;
+
+}
+
+.navbar .nav a:hover{
+	background: #FFFF00;
+}
+
+#myCarousel{
+	
+}
+
+.carousel-caption:{
+	background-color: #FF0000;
+	color: #FF0000;
+}
+
+#Profile {
+	padding: 50px;
+}
+#Profile h1{
+	text-align:center;
+	padding: 10px;
+}
+
+#Works{
+	padding: 50px;
+}
+
+#Works h1{
+	text-align:center;
+	padding-top: 10px;
+}
+#Works ul{
+	text-align: center;
+	border: 10px;
+	width: 100%;
+}
+#Works h3{
+	text-align: center;
+	padding: 10px;
+	color: #0000FF;
+}
+
+.Context{
+
+	text-align: left;
+	padding-bottom: 5px;
+	width: 400px;
+	margin:10px 10% 10px 5%;
+	border: 10px;
+	padding: 5px;
+	/*float: left;*/
+	display: inline-block;
+}
+
+#Contact {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px){
+#work1{
+	height: 550px;
+}
+#work2{
+	height: 550px;
+}
+#work3{
+	height: 600px;
+}
+#work4{
+	height: 550px;
+}
+}
+#work1 ul{
+	/*text-align: right;*/
+	/*float: right;*/
+	display: inline-block;
+	/*border-width: 600px;*/
+	/*width: 50%;*/
+}
+
+#work1 iframe{
+	/*text-align: right;*/
+	padding: 5px;
+	/*float: right;*/
+	display: inline-block;
+}
+
+#work2 ul{
+	/*text-align: left;*/
+	/*float: right;*/
+	display: inline-block;
+}
+
+#work2 iframe{
+	/*text-align: left;*/
+	padding: 5px;
+	/*float: right;*/
+	display: inline-block;
+}
+
+
+
+#work3 ul{
+	/*text-align: left;*/
+	/*float: right;*/
+	display: inline-block;
+}
+
+#work3 iframe{
+	text-align: right;
+	padding: 5px;
+	/*float: right;*/
+	display: inline-block;
+}
+
+#work4 ul{
+	/*text-align: right;*/
+	display: inline-block;
+}
+
+#work4 iframe{
+	/*text-align: right;*/
+	padding: 5px;
+	/*float: right;*/
+	display: inline-block;
+}
+
+.videos{
+	display: inline-block;
+	height: 800px;
+}
+
+#Diaries{
+	display: inline-block;
+	text-align: center;
+	width:100%;
+	padding-bottom: 20px;
+}
+
+#div{
+	padding-bottom: 10px;
+}
