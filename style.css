@@ -222,5 +222,9 @@ img{
 }
 
 #div{
+	text-align: left;
+	margin: auto;
+	width:35%;
 	padding-bottom: 10px;
 }
+
